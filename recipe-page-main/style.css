@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-weight:300 ;
+    
+   
+}
+.main-head{
+    padding: 10px;
+}
+ .description{
+    margin: 0 0 16px 0;
+}
+.description_2{
+    padding: 10px;
+    border-radius: 8px;
+}
+.main-head,.section-head{
+    font-family: "Young Serif", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+/* .ingredients,.instructions,.nutrition{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal;
+} */
+.section-head{
+    margin: 10px 0;
+}
+hr{
+    border-bottom: #333 dotted 1px;
+}
+ul,ol{
+    padding: 30px;
+}
+ul li,ol li{
+    line-height: 2;
+}
+.bold{
+    font-weight: 500;
+    /* font-style: oblique; */
+}
+#wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    flex-basis: 700px;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+#img-wrapper{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    height: ;
+}
+.description_2{
+    background-color: hsl(330, 100%, 98%);
+}
+.rose{
+    color:hsl(332, 51%, 32%) ;
+}
+.section-head{
+    color: hsl(14, 45%, 36%);
+}
+#img-wrapper img{
+    width: 95%;
+}
+.nutritionalValues{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px ;
+    padding: 10px;
+
+}
+.nutritionalValues p{
+    flex-grow: 1;
+}
+.roseP{
+    color: hsl(332, 51%, 32%) ;
+    font-weight: 400;
+}
+.hr{
+    border-bottom:dotted #333 1px;
+}
+.mabijisgeh{
+    color:hsl(30, 54%, 90%) ;
+    color:hsl(30, 18%, 87%) ;
+    color: hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
+    color: hsl(14, 45%, 36%);
+    color:hsl(332, 51%, 32%) ;
+    color: hsl(330, 100%, 98%);
+    color: ;
+    color: ;
+    color: ;
+}
